@@ -117,7 +117,7 @@ const Projects = () => {
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="text-5xl md:text-7xl font-display font-bold mb-12 text-right"
+                    className="text-4xl md:text-6xl font-display font-bold mb-12 text-right"
                 >
                     WORK SHOWCASE
                 </motion.h2>
