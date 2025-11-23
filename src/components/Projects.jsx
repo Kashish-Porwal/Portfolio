@@ -119,7 +119,9 @@ const Projects = () => {
                     transition={{ duration: 0.8 }}
                     className="text-4xl md:text-6xl font-display font-bold mb-12 text-right"
                 >
-                    WORK SHOWCASE
+                    WORK
+                    <br />
+                    <span className="text-accent-100">SHOWCASE</span>
                 </motion.h2>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 perspective-2000">
