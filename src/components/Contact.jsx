@@ -72,7 +72,7 @@ const Contact = () => {
                         </a>
 
                         <a
-                            href="https://drive.google.com/file/d/1p-WboQinvVB_GjnCfzWGyHDOUQzb2gV1/view?usp=sharing"
+                            href="https://drive.google.com/file/d/18DMC2JVrpCMh3OcF9BQeYukUMQpn_1-o/view?usp=sharing"
                             target="_blank"
                             className="p-3 rounded-full border border-white/10 bg-white/5 hover:bg-white/20 hover:text-accent-300 transition-all duration-300"
                         >
