@@ -4,12 +4,16 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 
 const experienceData = [
     {
-        role: 'Embedded/IoT Intern',
+        role: 'Frontend Intern',
         company: 'Invoir Inc.',
         year: "Jun'25 - Jul'25",
         location: 'Remote',
-        description: 'Built an Embedded Intelligence for Smart Vehicle Monitoring system using C++, Python, Keil, and Proteus. Integrated multiple sensors for real-time data acquisition, processing, and visualisation. Optimised the embedded system for efficiency, scalability, and reliability.',
-        skills: ['C++', 'Python', 'Keil', 'Proteus', 'IoT', 'Embedded Systems']
+        description: [
+            'Developed and updated user interface features using React.js, improving website responsiveness and user experience.',
+            'Integrated frontend components with backend services and worked with MongoDB to handle dynamic data.',
+            'Modified pages, optimized UI components, and resolved bugs for smooth performance across devices.'
+        ],
+        skills: ['React.js', 'MongoDB', 'JavaScript', 'UI Optimization']
     }
 ];
 
@@ -69,9 +73,14 @@ const Experience = () => {
                                         )}
                                     </div>
 
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-3">
-                                        {item.description}
-                                    </p>
+                                   <ul className="text-gray-300 text-sm leading-relaxed mb-3 space-y-2">
+                                    {item.description.map((point, i) => (
+                                        <li key={i} className="flex md:justify-end">
+                                        <span className="mr-2">•</span>
+                                        {point}
+                                        </li>
+                                    ))}
+                                  </ul>
 
                                     <div className="flex flex-wrap gap-2 md:justify-end">
                                         {item.skills.map((skill, i) => (

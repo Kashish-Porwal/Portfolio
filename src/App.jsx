@@ -8,6 +8,7 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Achievements from './components/Achievements'
 import Contact from './components/Contact'
+import { h1 } from 'framer-motion/client'
 
 function App() {
     return (

@@ -7,7 +7,7 @@ import Skills3D from './Skills3D';
 const skillCategories = [
     {
         title: 'Languages',
-        skills: ['C++', 'Python', 'C', 'JavaScript']
+        skills: ['C++', 'JavaScript','TypeScript', 'Python']
     },
     {
         title: 'Frontend',
@@ -26,8 +26,8 @@ const skillCategories = [
         skills: ['Assembly Language', 'Digital Logic Design']
     },
     {
-        title: 'Tools and Technologoes',
-        skills: ['Git','Github','VS CODE','MATLAB','Keil','Proteus']
+        title: 'Tools and Technologies',
+        skills: ['Git','Github','Postman','VS CODE','MATLAB','Keil','Proteus']
     },
 ];
 
