@@ -4,7 +4,7 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 
 const experienceData = [
     {
-        role: 'Frontend Intern',
+        role: 'Fullstack Developer Intern',
         company: 'Invoir Inc.',
         year: "Jun'25 - Jul'25",
         location: 'Remote',
