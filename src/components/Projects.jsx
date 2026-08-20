@@ -3,7 +3,7 @@ import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 
 const projects = [
     {
-        title: 'Placement Radar — AI Job & Interview Tracker',
+        title: 'AI Job & Interview Tracker',
         category: 'AI & Productivity Tool ',
         image: '/job_tracker.png',
         description: 'Built a full-stack job tracking app using React, Node.js, Express, and MongoDB with JWT authentication.Integrated GPT-4o to generate ATS match scores and identify resume skill gaps.',
