@@ -3,11 +3,11 @@ import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 
 const projects = [
     {
-        title: 'Vibe Commerce',
-        category: 'Full-Stack Shopping App',
-        image: '/vibe-commerce.png',
-        description: 'Full-stack shopping app with product listing, cart, and checkout. Built with React, Node.js, and MongoDB.',
-        link: 'https://github.com/Kashish-Porwal/Vibe_Commerce',
+        title: 'Placement Radar — AI Job & Interview Tracker',
+        category: 'AI & Productivity Tool ',
+        image: '/job_tracker.png',
+        description: 'Built a full-stack job tracking web app using React 19, Node.js, Express, and MongoDB Atlas with secure JWT authentication.Integrated OpenAI GPT-4o to scan Job Descriptions against candidate resumes, returning instant ATS match scores (%) and skill gaps.',
+        link: 'https://github.com/Kashish-Porwal/placement-radar',
         color: '#ff00ff'
     },
     {
