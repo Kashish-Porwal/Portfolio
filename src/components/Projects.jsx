@@ -6,7 +6,7 @@ const projects = [
         title: 'AI Job & Interview Tracker',
         category: 'Placement Radar',
         image: '/job_tracker.png',
-        description: 'Built a full-stack job tracking app using React, Node.js, Express, and MongoDB with JWT authentication.Integrated GPT-4o to generate ATS match scores and identify resume skill gaps.',
+        description: 'Built a full-stack job tracking app using React,Node.js,Express,and MongoDB with JWT authentication.Integrated GPT-4o to generate ATS match scores and identify resume skill gaps',
         link: 'https://github.com/Kashish-Porwal/placement-radar',
         color: '#ff00ff'
     },
