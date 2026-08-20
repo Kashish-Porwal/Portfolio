@@ -23,7 +23,7 @@ const skillCategories = [
     },
     {
         title: 'Core CS',
-        skills: ['Data Structures & Algorithms', 'OOP', 'Operating Systems', 'Computer Networks', 'DBMS', 'System Design(HLD)']
+        skills: ['Data Structures & Algorithms', 'OOP', 'Operating Systems', 'Computer Networks', 'DBMS', 'System Design (HLD)']
     },
     {
         title: 'Tools and Technologies',
