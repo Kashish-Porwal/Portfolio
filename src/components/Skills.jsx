@@ -19,15 +19,11 @@ const skillCategories = [
     },
     {
         title: 'Core CS',
-        skills: ['Data Structures & Algorithms', 'OOP', 'Operating Systems', 'Computer Networks', 'DBMS']
-    },
-    {
-        title: 'Core ECE',
-        skills: ['Assembly Language', 'Digital Logic Design']
+        skills: ['Data Structures & Algorithms', 'OOP', 'Operating Systems', 'Computer Networks', 'DBMS', 'System Design(HLD)']
     },
     {
         title: 'Tools and Technologies',
-        skills: ['Git','Github','Postman','VS CODE','MATLAB','Keil','Proteus']
+        skills: ['Git/Github','Postman','VS CODE','OpenAI GPT-4o API']
     },
 ];
 
